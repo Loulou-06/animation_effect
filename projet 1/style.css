@@ -1,0 +1,64 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.accueil {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.fondGolden {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: url(ressources/bridge_cloud.png) no-repeat 50% 50%;
+  /* //50% 50% et pareil que center center/cover */
+  background-size: cover;
+}
+.dosHomme {
+  position: absolute;
+  width: 80%;
+  height: 100vh;
+  background: url(ressources/dosHomme.png) no-repeat 50% 50%;
+  background-size: cover;
+  top: 20%;
+  left: 400px;
+  overflow: hidden;
+}
+.text {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 32%;
+  background: url(ressources/explore.png) no-repeat 50% 50%;
+  background-size: cover;
+  mix-blend-mode: overlay;
+}
+.nuages {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: url(ressources/cloudySky.png) no-repeat 50% 50%;
+  background-size: cover;
+  padding-top: 1000px;
+}
+.contenu {
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  line-height: 40px;
+  text-align: justify;
+}
