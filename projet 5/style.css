@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.acceuil {
+  height: 100%;
+  width: 100%;
+  background: url("ressources/image-1.jpg") no-repeat 0 0;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: #363636;
+  width: 100%;
+  text-align: center;
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.s1 {
+  background: url("ressources/image-2.jpg") no-repeat 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.s2 {
+  background: url("ressources/image-3.jpg") no-repeat 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.s3 {
+  background: url("ressources/image-4.jpg") no-repeat 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.s4 {
+  background: url("ressources/image-5.jpg") no-repeat 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.s5 {
+  background: url("ressources/image-6.jpg") no-repeat 0 0;
+  background-size: cover;
+}
+.s6 {
+  background: url("ressources/image-7.jpg") no-repeat 0 0;
+  background-size: cover;
+}
+.s7 {
+  background: url("ressources/image-8.jpg") no-repeat 0 0;
+  background-size: cover;
+}
+.s8 {
+  background: url("ressources/image-9.jpg") no-repeat 0 0;
+  background-size: cover;
+}
+.blocTxt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+.sousTitreTxt {
+  font-size: 45px;
+  text-align: center;
+}
+.txt {
+  font-size: 18px;
+  padding: 10px 40px;
+}
