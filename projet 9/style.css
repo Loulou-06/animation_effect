@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.box {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+.pinSection {
+  height: 100%;
+  width: 100%;
+}
+.image {
+  position: absolute;
+  background-size: cover;
+  top: -50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  height: 550px;
+  width: 300px;
+  /* border: 0px solid #2f2f34; */
+  border-radius: 50px;
+}
+.imageRight {
+  position: absolute;
+  background-size: cover;
+  top: -50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  height: 550px;
+  width: 300px;
+  /* border: 0px solid #2f2f34; */
+  border-radius: 50px;
+}
+.imageCenter {
+  position: absolute;
+  background-size: cover;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+  width: 550px;
+  border: 10px solid #2f2f34;
+  border-radius: 10px;
+}
+.scrollmagic-pin-spacer {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.event1 {
+  background-color: #e27d60;
+}
+.event1 .image {
+  top: 50%;
+  background-image: url(ressources/josh-hild-_TuI8tZHlk4-unsplash.jpg);
+}
+.event2 {
+  background-color: #e8a87c;
+}
+.event2 .image {
+  background-image: url(ressources/coucher-soleil-verbier-suisse.jpg);
+}
+
+.event3 {
+  background-color: #85cdca;
+}
+.event3 .image {
+  background-image: url(ressources/vertical-shot-forested-mountain-covered-snow-col-de-la-lombarde.jpg);
+}
+
+.event4 {
+  background-color: #c3839e;
+}
+.event4 .image {
+  background-image: url(ressources/vertical-shot-tall-trees-winter.jpg);
+}
+
+/* section de droite */
+
+.event1Right .imageRight {
+  top: 50%;
+  background-image: url(ressources/yoal-desurmont-S9OCBwRFV_k-unsplash.jpg);
+}
+.event2Right .imageRight {
+  background-image: url(ressources/chris-curry-IReLVyNc6Nc-unsplash.jpg);
+}
+.event3Right .imageRight {
+  background-image: url(ressources/daniel-j-schwarz-YtY724tdl7Y-unsplash.jpg);
+}
+.event4Right .imageRight {
+  background-image: url(ressources/image-2.jpg);
+}
+
+/* section centre */
+
+.event1Center .imageCenter {
+  top: 50%;
+  background-image: url(ressources/image-8.jpg);
+}
+.event2Center .imageCenter {
+  background-image: url(ressources/image-1.jpg);
+}
+.event3Center .imageCenter {
+  background-image: url(ressources/image-3.jpg);
+}
+.event4Center .imageCenter {
+  background-image: url(ressources/image-5.jpg);
+}

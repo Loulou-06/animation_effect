@@ -50,18 +50,22 @@ h1 {
 .s5 {
   background: url("ressources/image-6.jpg") no-repeat 0 0;
   background-size: cover;
+  background-attachment: fixed;
 }
 .s6 {
   background: url("ressources/image-7.jpg") no-repeat 0 0;
   background-size: cover;
+  background-attachment: fixed;
 }
 .s7 {
   background: url("ressources/image-8.jpg") no-repeat 0 0;
   background-size: cover;
+  background-attachment: fixed;
 }
 .s8 {
   background: url("ressources/image-9.jpg") no-repeat 0 0;
   background-size: cover;
+  background-attachment: fixed;
 }
 .blocTxt {
   position: absolute;
